@@ -4,7 +4,7 @@ metasploitsetup()
 {
       sudo apt-get install figlet
       echo "----------------------------------------------------"
-      figlet Iniciando Pré Instalação
+      figlet Iniciando Pre Instalaçao
       echo "----------------------------------------------------"
       sudo apt-get update
       sudo apt-get upgrade
@@ -12,7 +12,7 @@ metasploitsetup()
       echo " ------------------------------>"
       sudo apt-get install build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev openjdk-7-jre git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev vncviewer libyaml-dev curl zlib1g-dev
       echo " -----------------------------------------"
-      figlet Pré Requisitos Instalados!
+      figlet Pre Requisitos Instalados!
       echo "------------------------------------------"
      cd ~
    git clone git://github.com/sstephenson/rbenv.git .rbenv
@@ -79,7 +79,7 @@ sudo sh -c "echo java -jar /opt/armitage/armitage.jar \$\* > /opt/armitage/armit
 
 sudo perl -pi -e 's/armitage.jar/\/opt\/armitage\/armitage.jar/g' /opt/armitage/teamserver
 
-sudo cp /files/databases/database.yml  /opt/metasploit-framework/config/
+sudo cp database.yml  /opt/metasploit-framework/config/
 
 sudo sh -c "echo export MSF_DATABASE_CONFIG=/opt/metasploit-framework/config/database.yml >> /etc/profile"
 
@@ -101,7 +101,7 @@ parse_parameters()
 			metasploitsetup
 			exit 0
   else
-    echo "lol lek"
+    echo "done"
 fi
 done
 }
