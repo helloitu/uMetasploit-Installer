@@ -1,5 +1,5 @@
 # uMetasploit-Installer
-This is a code , then will install the metasploit-framework on your linux , attually tested on ElementaryOS
+This is a code that will install metasploit-framework on your linux, tested on ElementaryOS
 
  For use uMetasploit , follow the steps:
   
